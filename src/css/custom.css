@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+:root {
+  --ifm-color-primary: #1877f2;
+  --ifm-font-family-base: 'Inter', system-ui, sans-serif;
+  --ifm-heading-font-weight: 600;
+  --ifm-line-height-base: 1.75;
+  --ifm-navbar-shadow: none;
+}
+[data-theme='dark'] { --ifm-color-primary: #649cff; }
+.navbar {border-bottom: 1px solid var(--ifm-color-emphasis-200);}
+.tray-view { width: 100%; aspect-ratio: 1.5; border: 1px solid var(--ifm-color-emphasis-300); border-radius: 10px; display: block; }
+.downloads { display: flex; flex-wrap: wrap; gap: .75rem; margin: 1rem 0 2rem; }

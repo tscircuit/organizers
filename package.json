@@ -1,0 +1,21 @@
+{
+  "name": "@tscircuit/organizers",
+  "version": "1.0.0",
+  "description": "Printable workshop organizers",
+  "scripts": {
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "deploy": "npm run build && wrangler deploy"
+  },
+  "dependencies": {
+    "@docusaurus/core": "^3.10.2",
+    "@docusaurus/preset-classic": "^3.10.2",
+    "@mdx-js/react": "^3.1.1",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "private": true,
+  "devDependencies": {
+    "wrangler": "^4.168.0"
+  }
+}

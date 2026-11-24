@@ -1,0 +1,7 @@
+{
+  "name": "tscircuit-organizers",
+  "compatibility_date": "2026-11-24",
+  "workers_dev": false,
+  "routes": [{"pattern": "organizers.tscircuit.com", "custom_domain": true}],
+  "assets": {"directory": "./build", "not_found_handling": "404-page"}
+}
